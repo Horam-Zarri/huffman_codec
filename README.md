@@ -14,7 +14,7 @@ The core algorithm is similar to the implementation introduced in CLRS book. The
 - A build system supported by CMake (preferably Ninja)
 - DirectX XII (Only required for GUI build)  
 
-To build the CLI/GUI variant of the program pass to CMake ```-DHUFFMANCODEC_BUILD_GUI=OFF``` or
+To build the CLI/GUI variant of the program pass to CMake ```-DHUFFMANCODEC_BUILD_GUI=OFF``` or  
 ```-DHUFFMANCODEC_BUILD_GUI=ON``` respectively.
 
 A minimal command to build the CLI varaint of the program and running it, using Ninja as build system would be:
